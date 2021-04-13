@@ -1,0 +1,8 @@
+name: Rift
+version: 1.0
+main: net.therift.Main
+description: Core Plugin of The Rift
+author: Muffin
+website: therift.net
+api-version: 1.16
+depends: [ProtocolLib]

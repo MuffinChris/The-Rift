@@ -1,0 +1,11 @@
+THE RIFT NOTES / TODO
+
+- Need to cancel default attack particles (high damage)
+- Portals to go around in town, and to go back to spawn as opposed to direct TP without class magic
+- Advanced Food System
+- Improved inventory system? Item drops directly into inventory perhaps?
+- Remember to check old notes
+- classes that consume items for power and or ability usage etc. maybe even alot
+- Horses ramp in speed
+- Separate Dev Environment Server. Support with File System etc.
+- Discover new enemies ??? => Named

@@ -1,0 +1,5 @@
+net\therift\Main.class
+net\therift\rpg\RPGPlayer.class
+net\therift\chat\ChatUtils.class
+net\therift\rpg\combat\CombatListener.class
+net\therift\rpg\RPGUtils.class
