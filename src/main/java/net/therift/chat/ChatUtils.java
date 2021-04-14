@@ -1,5 +1,6 @@
 package net.therift.chat;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
@@ -34,7 +35,7 @@ public class ChatUtils {
      * @param msg the message
      */
     public static void so(String msg) {
-        System.out.println(color(msg));
+        Bukkit.getConsoleSender().sendMessage(color(msg));
     }
 
 }

@@ -1,5 +1,15 @@
+net\therift\util\BinderModule.class
+net\therift\util\ArgParser.class
 net\therift\Main.class
-net\therift\rpg\RPGPlayer.class
 net\therift\chat\ChatUtils.class
+net\therift\rpg\RPGUtilsListener.class
 net\therift\rpg\combat\CombatListener.class
+net\therift\rpg\combat\HPBarManager$1.class
+net\therift\admin\GamemodeCommand.class
 net\therift\rpg\RPGUtils.class
+net\therift\rpg\combat\HPBarManager.class
+net\therift\server\MotdListener.class
+net\therift\rpg\RPGPlayer.class
+net\therift\util\AliasConstants.class
+net\therift\rpg\combat\CombatListener$1.class
+net\therift\rpg\combat\RPGConstants.class

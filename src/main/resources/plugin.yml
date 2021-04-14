@@ -5,4 +5,11 @@ description: Core Plugin of The Rift
 author: Muffin
 website: therift.net
 api-version: 1.16
-depends: [ProtocolLib]
+commands:
+  gmc:
+    description: Alias for creative mode
+  gms:
+    description: Alias for survival mode
+  gmss:
+    description: Alias for spectator mode
+depend: [ProtocolLib]

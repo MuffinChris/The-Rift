@@ -9,3 +9,11 @@ THE RIFT NOTES / TODO
 - Horses ramp in speed
 - Separate Dev Environment Server. Support with File System etc.
 - Discover new enemies ??? => Named
+- For unarmed class make one slot always deny item
+
+
+- IMPORTANT: Use the PacketWrapper GitHub to decipher packets
+
+// Direct Todo List
+- Send HP when hit
+- Cancel natural regeneration in code
