@@ -1,5 +1,7 @@
 package net.therift.rpg;
 
+import net.therift.rpg.combat.melee.MeleeStyle;
+import net.therift.rpg.combat.melee.styles.BloodborneVengeance;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
@@ -12,12 +14,24 @@ public class RPGPlayer {
 
     private UUID uuid;
 
+    private MeleeStyle style;
+
     /**
      * Construct a new RPGPlayer given the Player to attach to.
      * @param p the player
      */
     public RPGPlayer(Player p) {
         uuid = p.getUniqueId();
+        style = new BloodborneVengeance(p);
+    }
+
+    /**
+     * Clean up all references
+     */
+    public void close() {
+        style.close();
+        style = null;
+        uuid = null;
     }
 
     /**
@@ -29,10 +43,11 @@ public class RPGPlayer {
     }
 
     /**
-     * Clean up all references
+     * Get the player's melee style
+     * @return a melee style
      */
-    public void close() {
-        uuid = null;
+    public MeleeStyle getStyle() {
+        return style;
     }
 
 }

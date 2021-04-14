@@ -7,9 +7,14 @@ net\therift\rpg\combat\CombatListener.class
 net\therift\rpg\combat\HPBarManager$1.class
 net\therift\admin\GamemodeCommand.class
 net\therift\rpg\RPGUtils.class
+net\therift\rpg\combat\melee\styles\BloodborneVengeance.class
+net\therift\util\ParticleLib.class
+net\therift\rpg\combat\melee\MeleeStyle.class
 net\therift\rpg\combat\HPBarManager.class
 net\therift\server\MotdListener.class
+net\therift\rpg\combat\melee\StyleCooldownManager$1.class
 net\therift\rpg\RPGPlayer.class
 net\therift\util\AliasConstants.class
 net\therift\rpg\combat\CombatListener$1.class
+net\therift\rpg\combat\melee\StyleCooldownManager.class
 net\therift\rpg\combat\RPGConstants.class

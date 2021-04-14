@@ -10,5 +10,8 @@
         <module name="Rift" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="The-Rift" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

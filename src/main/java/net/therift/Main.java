@@ -7,6 +7,7 @@ import net.therift.rpg.RPGUtils;
 import net.therift.rpg.RPGUtilsListener;
 import net.therift.rpg.combat.CombatListener;
 import net.therift.rpg.combat.HPBarManager;
+import net.therift.rpg.combat.melee.StyleCooldownManager;
 import net.therift.server.MotdListener;
 import net.therift.util.AliasConstants;
 import net.therift.util.BinderModule;
@@ -20,10 +21,9 @@ public class Main extends JavaPlugin {
 
     /** Important Classes */
     private RPGUtils rpgUtils;
-    public RPGUtils getRPGUtils() {
-        return rpgUtils;
-    }
+    public RPGUtils getRPGUtils() { return rpgUtils; }
     @Inject private HPBarManager hpBarManager;
+    @Inject private StyleCooldownManager styleCooldownManager;
 
     /** Commands to inject */
     @Inject private GamemodeCommand gamemodeCommand;
@@ -66,7 +66,8 @@ public class Main extends JavaPlugin {
 
         getLogger().info("Setting up Important Classes.");
         rpgUtils = new RPGUtils();
-        hpBarManager.hpPeriodic();
+        hpBarManager.sendHpPeriodic();
+        styleCooldownManager.resetStylePeriodic();
 
         getLogger().info("Registering Commands.");
         registerCommands();

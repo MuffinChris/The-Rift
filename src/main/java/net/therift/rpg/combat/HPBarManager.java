@@ -48,7 +48,7 @@ public class HPBarManager {
     /**
      * Periodically update the action bar of all players
      */
-    public void hpPeriodic() {
+    public void sendHpPeriodic() {
         new BukkitRunnable() {
             @Override
             public void run() {

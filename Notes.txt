@@ -13,7 +13,15 @@ THE RIFT NOTES / TODO
 
 
 - IMPORTANT: Use the PacketWrapper GitHub to decipher packets
+- IMPORTANT: Every status should be in a StatusObject or the like.
+For example invuln, just give a set amount of iframes instead of set true and set false after cast
 
 // Direct Todo List
 - Send HP when hit
 - Cancel natural regeneration in code
+- Util class for working with items
+- Make sure attacks cannot go through walls / get blocked by blocks
+// Low Priority Todo List
+- Join in black box and load into world. Must save logout position.
+- Certain attacks are grounding
+- For Physical and Elemental Stack, instead of a fat constructor just append with a list of individual damage objects
